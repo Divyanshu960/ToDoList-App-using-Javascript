@@ -1,0 +1,107 @@
+body {
+    width: 50%;
+    margin: 0 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(54, 54, 54);
+    color: black;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-left: 0px;
+    font-size: 50;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.container {
+    width: 360px;
+}
+
+#inputField {
+    width: 300px;
+    height: 40px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#addToDo {
+    height: 43px;
+    width: 43px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.to-dos {
+    margin-top: 25px;
+}
+
+.button {
+    width: 45;
+    height: 45;
+    padding-top: -1;
+    font-size: 20;
+    border: none;
+    background: rgb(78, 255, 255);
+    font-family: sans-serif;
+    font-weight: 300;
+    border: 0;
+    border-radius: 40px;
+    margin: 1.5;
+    transition: 0.25px;
+}
+
+.addToDo {
+    padding-top: -1;
+    font-size: 20;
+    text-align: center;
+    color: black;
+    border: none;
+    background: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    border: 0;
+    border-radius: 30px;
+    margin: 1.5;
+    transition: 0.25px;
+    cursor: none;
+}
+
+.addToDo:hover {
+    background: #00d9ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.animated {
+    font-size: 40px;
+    font-weight: 900;
+    text-decoration: none;
+    background: linear-gradient(to right, white 50%, #61e6e6 50%, #2f32e7);
+    background-size: 200%;
+    background-clip: text;
+    transition: 0.5s ease-out;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+    width: 100%;
+}
+
+.animated:hover {
+    background-position: -100%;
+}
